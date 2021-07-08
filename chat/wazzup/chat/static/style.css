@@ -1,0 +1,43 @@
+.chat-message {
+background-color: #DCF8C6;
+border: 1px solid #ECE500;
+border-radius: 20px;
+padding: 10px;
+}
+
+.chat-message-time {
+    color: grey;
+}
+.chat-message-parent {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #075E54;
+}
+
+.chat-container {
+    background-image: url('/static/images/fon.jpg');
+    height: 90vh;
+    position: relative;
+}
+
+.chat-input-container {
+    position: absolute;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.chat-message-container {
+    height: 650px;
+    overflow-y: scroll;
+}
+
+.chat-author {
+    font-size: 20px;
+    font-style: italic; 
+    font-weight: bolder;
+    padding-bottom: 10px;
+    z-index: 99;
+    color: white;
+}
